@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- canvas e uma area da telha que eu posso tipo desenhar ou escrever -->
+    <!-- width que e largura em pt , E o height que é altura -->
+    <canvas width="600" height="400 "></canvas>
+    <script>
+      var tela = document.querySelector("canvas");
+      var pincel = tela.getContext("2d");
+      //   no caso ta pedindo pincel para desenhar em 2d
+
+      pincel.fillStyle = "light green";
+      // fillstyle não e uma função e uma propriedade , e ta escolhendo a cor essa propriedade
+      pincel.fillRect(0, 0, 600, 400);
+      //  e uma coordenada de x e y e precisamos do tamanho e largura para preencher a o tamanha da telha ou algo assim
+      pincel.fillStyle = "green";
+      pincel.fillRect(0, 0, 200, 400);
+
+      pincel.fillStyle = "red";
+      pincel.fillRect(400, 0, 200, 400);
+
+      pincel.fillStyle = "blue";
+      // esse pincel começara criar um caminho , a escrita do meu caminho o (beginPath)
+
+      pincel.beginPath();
+      pincel.moveTo(300, 200);
+
+      // esse pincel (moveTo ) e tipo movendo aonde vai desenhar ou algo assim , mas precisa das cordenadas
+      pincel.lineTo(200, 400);
+      // Bom esse (lineTO) esta terminando de fazer o seu desenho por exemplo o TRiangulo e uma forma de se usar
+      pincel.lineTo(400, 400);
+      pincel.fill();
+      
+      // fill( ) serve para preencher algo que vc criou que ésta invisivel no codigo
+      pincel.fillStyle = "green";
+      pincel.beginPath();
+      pincel.arc(300, 200, 50, 0, 2 * 3.14);
+      // arc localiza o codigo no caso a bolinha que irei criar.
+      pincel.fill();
+
+      
+      pincel.fillStyle = "blue";
+      
+    </script>
+  </body>
+</html>
+a

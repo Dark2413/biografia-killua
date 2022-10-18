@@ -1,0 +1,152 @@
+/* 
+button{
+display: flex;
+align-items: center;
+
+gap: .4rem;
+}
+
+
+button img{
+width: 2rem;
+height: 2rem;
+} */
+
+/* 
+img{
+  width: 30% ;
+  height: auto;
+}
+
+.site{
+  display:flex;
+  flex-wrap: wrap;
+  gap:  .8rem;
+
+}
+ /* */ 
+
+
+/* 
+.container{
+  display: flex;
+  gap: 1rem;
+
+
+}
+
+aside,nain{
+  border:1px solid;
+  height: 95vh;
+}
+
+aside{
+  flex-basis: 25%;
+
+}
+
+main {
+  flex:1;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* {
+  margin: 0;
+}
+
+header {
+  padding: 4rem;
+  background: lightblue;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.ul{
+  display: flex;
+align-items: none;
+  list-style: none;
+  gap: .8rem;
+}
+
+ul li:last-child {
+background: black;
+color:white;
+padding: .8rem;
+
+
+}
+ */
+
+
+
+
+
+
+
+
+
+/* .page{
+  border: 2px solid;
+  min-height: 100vh;
+  display: flex;
+}
+.aside{
+  background: blue;
+  flex: 1;
+}
+.main{
+  background: cadetblue;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+main section:nth-child(1){
+  background: darkgreen;
+  flex: 0 0 100px;
+}
+main section:nth-child(2){
+background: lightskyblue;
+flex: 0  120px;
+}
+main section:nth-child(3){
+background: red;
+flex: 1;
+} */

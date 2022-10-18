@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progama2</title>
+  </head>
+  <body>
+    <canvas width="600" height="400 "></canvas>
+    <script>
+        function desenhaQuadradoverde(x){
+//  A funçao serve para facilitar o codigo , não precisa ficar fazendo um monte de codigo so faz funcao e chamar que irá criar mais facil
+
+      var tela = document.querySelector("canvas");
+      var pincel = tela.getContext("2d");
+      pincel.fillStyle = "green";
+      pincel.fillRect(x, 0, 50, 50);
+      pincel.fillStroke = "black";
+      pincel.strokeRect(x, 0, 50, 50);
+
+    }
+
+desenhaQuadradoverde();
+
+
+
+
+
+
+
+// //    o STROKE e a cor da borda do desenho que fez com o pincel
+// pincel.strokeRect(0, 0, 50, 50);
+// // O strokerect e o coisa para ativar a borda mais pra colocar precisa das posições para a borda fica ali
+   
+//       // para criar mais um  do lado sempre pelo final do numero que vc coloqou no fillRect
+//       pincel.fillRect(50, 0, 50, 50);
+//       pincel.strokeRect(50, 0, 50, 50);
+//       pincel.fillRect(100, 0, 50, 50);
+//       pincel.strokeRect(100, 0, 50, 50);
+//       // com isso meio que se ajuntaram os desenhos ,tipo isso
+    </script>
+  </body>
+</html>
